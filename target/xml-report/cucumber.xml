@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.263">
+    <testcase classname="Login" name="Gecerli Datalarla Giris Yapma" time="0.055">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given Kullanici gecerli datalarla request yapar.............................undefined
+Then Kullanici status code 200 oldugunu dogrular............................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
