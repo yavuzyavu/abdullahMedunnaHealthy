@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.263">
-    <testcase classname="Login" name="Gecerli Datalarla Giris Yapma" time="0.055">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given Kullanici gecerli datalarla request yapar.............................undefined
-Then Kullanici status code 200 oldugunu dogrular............................skipped
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.453">
+    <testcase classname="Register" name="Kullanici hesap acma" time="2.256">
+        <failure message="expected [400] but found [201]" type="java.lang.AssertionError">
+            <![CDATA[Given Kullanici gecerli verileri girerek request yapar......................passed
+Then Kullanici Status Code 201 oldugunu dogrular............................failed
+And Kullanici register data dogrulamasi yapar...............................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at stepDefs.RegisterStepDef.kullaniciStatusCodeOldugunuDogrular(RegisterStepDef.java:49)
+	at ✽.Kullanici Status Code 201 oldugunu dogrular(file:///C:/Users/Hatice/IdeaProjects/abdullahMedunnaHealthy/src/test/resources/features/Register.feature:7)
 ]]>
         </failure>
     </testcase>

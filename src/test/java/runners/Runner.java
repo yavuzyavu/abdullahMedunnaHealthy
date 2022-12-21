@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepDefs",
-        tags = "@login",
+        tags = "@Register",
 
         dryRun = false
 )
