@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.116">
     <testcase classname="Register" name="Kullanici hesap acma" time="6.453">
+=======
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.453">
+    <testcase classname="Register" name="Kullanici hesap acma" time="2.256">
+>>>>>>> a8f87a19f0bf5d5a9560f0f857d3202503dd8058
         <failure message="expected [400] but found [201]" type="java.lang.AssertionError">
             <![CDATA[Given Kullanici gecerli verileri girerek request yapar......................passed
 Then Kullanici Status Code 201 oldugunu dogrular............................failed
