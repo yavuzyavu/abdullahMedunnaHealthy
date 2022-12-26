@@ -2,6 +2,6 @@
   Feature: Room
 
     Scenario: Room Olusturma
-      Given Kullanici Token Alir
+      Given Kullanici gereken andpoint ayarlanir
       Then Kullanici Room İcin Post Request Yapar
       And Kullanici Requestin Dogrulamasini yapar
